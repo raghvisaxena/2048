@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { cloneDeep } from 'lodash';
 
-import { useEvent } from './util';
+import { useEvent , getColors} from './util';
 
 function App() {
   const UP_ARROW = 38;
@@ -310,10 +310,11 @@ function App() {
 const Block = ({ num }) => {
   const { blockStyle } = style;
 
-  return (
+  return ( 
     <div
       style={{
         ...blockStyle,
+         background: getColors(num),
         color: num === 2 || num === 4 ? "#645B52" : "#F7F4EF",
       }}
     >
