@@ -1,3 +1,7 @@
+# Rules of the game
+2048 is a game where you combine numbered tiles in order to gain a higher numbered tile. In this game you start with two tiles, the lowest possible number available is two. Then you will play by combining the tiles with the same number to have a tile with the sum of the number on the two tiles. A lot of strategies have been devised in order to obtain the 2048 and be a winner in this game. But others have strived for a greater height. Which is a score beyond 2048. After, achieving the tile with a 2048 tile, players will be asked if you still want to continue the game. Some stop there, but others are determined to continue.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
